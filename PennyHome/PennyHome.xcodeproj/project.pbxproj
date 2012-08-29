@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957EA2EA15EDFE5B00F73ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957EA2E915EDFE5B00F73ACE /* UIKit.framework */; };
+		957EA2EC15EDFE5B00F73ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957EA2EB15EDFE5B00F73ACE /* Foundation.framework */; };
+		957EA2EE15EDFE5B00F73ACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957EA2ED15EDFE5B00F73ACE /* CoreGraphics.framework */; };
+		957EA2F415EDFE5B00F73ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 957EA2F215EDFE5B00F73ACE /* InfoPlist.strings */; };
+		957EA2F615EDFE5C00F73ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957EA2F515EDFE5C00F73ACE /* main.m */; };
+		957EA2FA15EDFE5C00F73ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957EA2F915EDFE5C00F73ACE /* AppDelegate.m */; };
+		957EA2FD15EDFE5C00F73ACE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957EA2FB15EDFE5C00F73ACE /* MainStoryboard.storyboard */; };
+		957EA30015EDFE5C00F73ACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957EA2FF15EDFE5C00F73ACE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		957EA2E515EDFE5B00F73ACE /* PennyHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957EA2E915EDFE5B00F73ACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		957EA2EB15EDFE5B00F73ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		957EA2ED15EDFE5B00F73ACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		957EA2F115EDFE5B00F73ACE /* PennyHome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PennyHome-Info.plist"; sourceTree = "<group>"; };
+		957EA2F315EDFE5B00F73ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		957EA2F515EDFE5C00F73ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		957EA2F715EDFE5C00F73ACE /* PennyHome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PennyHome-Prefix.pch"; sourceTree = "<group>"; };
+		957EA2F815EDFE5C00F73ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		957EA2F915EDFE5C00F73ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		957EA2FC15EDFE5C00F73ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		957EA2FE15EDFE5C00F73ACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		957EA2FF15EDFE5C00F73ACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957EA2E215EDFE5B00F73ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957EA2EA15EDFE5B00F73ACE /* UIKit.framework in Frameworks */,
+				957EA2EC15EDFE5B00F73ACE /* Foundation.framework in Frameworks */,
+				957EA2EE15EDFE5B00F73ACE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957EA2DA15EDFE5B00F73ACE = {
+			isa = PBXGroup;
+			children = (
+				957EA2EF15EDFE5B00F73ACE /* PennyHome */,
+				957EA2E815EDFE5B00F73ACE /* Frameworks */,
+				957EA2E615EDFE5B00F73ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957EA2E615EDFE5B00F73ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957EA2E515EDFE5B00F73ACE /* PennyHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957EA2E815EDFE5B00F73ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				957EA2E915EDFE5B00F73ACE /* UIKit.framework */,
+				957EA2EB15EDFE5B00F73ACE /* Foundation.framework */,
+				957EA2ED15EDFE5B00F73ACE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		957EA2EF15EDFE5B00F73ACE /* PennyHome */ = {
+			isa = PBXGroup;
+			children = (
+				957EA2F815EDFE5C00F73ACE /* AppDelegate.h */,
+				957EA2F915EDFE5C00F73ACE /* AppDelegate.m */,
+				957EA2FB15EDFE5C00F73ACE /* MainStoryboard.storyboard */,
+				957EA2FE15EDFE5C00F73ACE /* ViewController.h */,
+				957EA2FF15EDFE5C00F73ACE /* ViewController.m */,
+				957EA2F015EDFE5B00F73ACE /* Supporting Files */,
+			);
+			path = PennyHome;
+			sourceTree = "<group>";
+		};
+		957EA2F015EDFE5B00F73ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				957EA2F115EDFE5B00F73ACE /* PennyHome-Info.plist */,
+				957EA2F215EDFE5B00F73ACE /* InfoPlist.strings */,
+				957EA2F515EDFE5C00F73ACE /* main.m */,
+				957EA2F715EDFE5C00F73ACE /* PennyHome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957EA2E415EDFE5B00F73ACE /* PennyHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957EA30315EDFE5C00F73ACE /* Build configuration list for PBXNativeTarget "PennyHome" */;
+			buildPhases = (
+				957EA2E115EDFE5B00F73ACE /* Sources */,
+				957EA2E215EDFE5B00F73ACE /* Frameworks */,
+				957EA2E315EDFE5B00F73ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyHome;
+			productName = PennyHome;
+			productReference = 957EA2E515EDFE5B00F73ACE /* PennyHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957EA2DC15EDFE5B00F73ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 957EA2DF15EDFE5B00F73ACE /* Build configuration list for PBXProject "PennyHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 957EA2DA15EDFE5B00F73ACE;
+			productRefGroup = 957EA2E615EDFE5B00F73ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957EA2E415EDFE5B00F73ACE /* PennyHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957EA2E315EDFE5B00F73ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957EA2F415EDFE5B00F73ACE /* InfoPlist.strings in Resources */,
+				957EA2FD15EDFE5C00F73ACE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957EA2E115EDFE5B00F73ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957EA2F615EDFE5C00F73ACE /* main.m in Sources */,
+				957EA2FA15EDFE5C00F73ACE /* AppDelegate.m in Sources */,
+				957EA30015EDFE5C00F73ACE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		957EA2F215EDFE5B00F73ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957EA2F315EDFE5B00F73ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		957EA2FB15EDFE5C00F73ACE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957EA2FC15EDFE5C00F73ACE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957EA30115EDFE5C00F73ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		957EA30215EDFE5C00F73ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957EA30415EDFE5C00F73ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyHome/PennyHome-Prefix.pch";
+				INFOPLIST_FILE = "PennyHome/PennyHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		957EA30515EDFE5C00F73ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyHome/PennyHome-Prefix.pch";
+				INFOPLIST_FILE = "PennyHome/PennyHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957EA2DF15EDFE5B00F73ACE /* Build configuration list for PBXProject "PennyHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957EA30115EDFE5C00F73ACE /* Debug */,
+				957EA30215EDFE5C00F73ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957EA30315EDFE5C00F73ACE /* Build configuration list for PBXNativeTarget "PennyHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957EA30415EDFE5C00F73ACE /* Debug */,
+				957EA30515EDFE5C00F73ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957EA2DC15EDFE5B00F73ACE /* Project object */;
+}
